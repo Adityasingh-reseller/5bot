@@ -20,5 +20,5 @@ options: {msg: message}
 })
 Bot.sendMessage("*[#] Message Sended To All Users*")
 }else{
-Bot.sendMessage("*[*] Bot By @Firerepo*")
+Bot.sendMessage("*[ ! ] Bot By @Firerepo**")
 }
