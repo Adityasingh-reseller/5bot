@@ -1,10 +1,10 @@
 /*CMD
-  command: /mic
+  command: /brpic
   help: 
   need_reply: true
   auto_retry_time: 
   folder: 
-  answer: sent message
+  answer: *[#]* _Sent Photo With Caption_
 
   <<KEYBOARD
 
@@ -16,11 +16,11 @@ var key1 = "1960533911"
 var key2="1179629135"
 if (user.telegramid == key1 || user.telegramid == key2){
 Bot.runAll({ 
-command: "broadcastforad",
+command: "Photo",
 for_chats: "private-chats",
-options: {msg: message}
+options: {photo: request.photo[0].file_id, caption: request.caption}
 })
-Bot.sendMessage("*[#] Message Sended To All Users*")
+Bot.sendMessage("*[#] Photo Sended To All Users.*")
 }else{
-Bot.sendMessage("*[ ! ] Bot By @Firerepo**")
+Bot.sendMessage("*[ ! ] Bot By @Firerepo*")
 }
