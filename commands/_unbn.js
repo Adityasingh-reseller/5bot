@@ -12,8 +12,9 @@
   aliases: 
 CMD*/
 
-var key = "1960533911"
-if (user.telegramid== key){
+var key1 = "1960533911"
+var key2="1179629135"
+if (user.telegramid == key1 || user.telegramid == key2){
 Bot.setProperty(""+message+"" , "unban" , "string");
 Bot.sendMessage("*[√] User " +message+ " Has Been Unbanned Successfully*");
 }else{
