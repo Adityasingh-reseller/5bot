@@ -23,5 +23,5 @@ User.addToGroup("user")
 }
 
 if (user=="left"){
-Bot.sendMessage("*❌ Must join all channel*")
+Bot.sendMessage("*[ ! ] Must join @FireRepo*")
 }

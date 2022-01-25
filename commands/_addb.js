@@ -12,8 +12,9 @@
   aliases: 
 CMD*/
 
-var key = "1960533911"
-if (user.telegramid == key){
+var key1 = "1960533911"
+var key2="1179629135"
+if (user.telegramid == key1 || user.telegramid == key2){
 let msg = message;
 User.setProperty("id", msg, "integer");
 Bot.runCommand  ("/bab");
