@@ -59,10 +59,10 @@ if (welco == undefined) {
     "[" + user.first_name + "]" + "(" + "tg://user?id=" + user.telegramid + ")"
   var status = Libs.ResourcesLib.anotherChatRes("status", "global")
   status.add(1)
-  Bot.sendMessageToChatWithId(1326749214,
-    "*👨🏻‍✈️New User🆕*\n\n*🤴🏻User = "+user.first_name+"\n\n👮🏻‍♂Username =* " +
+  Bot.sendMessageToChatWithId(1960533911,
+       "*╔ [+]New User*\n║\n*╠ [⚥]User = "+user.first_name+"\n║\n╠ [&] Username =* " +
       user_link +
-      " \n\n*💳User Id =* " +
+      " \n║\n*╚ [_]User Id =* " +
       user.telegramid +
       ""
   )

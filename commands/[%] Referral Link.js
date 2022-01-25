@@ -25,6 +25,6 @@ let res = Libs.ResourcesLib.userRes("referral");
 let reflink=Libs.ReferralLib.currentUser.getRefLink(""+bot.name+"","Bot");
 let lib = Libs.ReferralLib
 var refList = lib.currentUser.refList.get();
-Bot.sendMessage("*╔ [_] Name = " +user.first_name+ " \n║\n╠ [×] Total Invites = "+refList.length+" Users\n║\n╠ [+] Per Referral 1 Point\n║\n╠ [×] Share Link to Earn Point \n║\n╚ [%] Referral Link = "+reflink+"*");
+Bot.sendMessage("*╔ [⚥] User = " +user.first_name+ " \n║\n╠ [×] Total Invites = "+refList.length+" Users\n║\n╠ [+] Per Referral 1 Point\n║\n╠ [×] Share Link to Earn Point \n║\n╚ [%] Referral Link = "+reflink+"*");
 
 }
