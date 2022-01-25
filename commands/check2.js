@@ -23,5 +23,5 @@ User.addToGroup("user")
 }
 
 if (user=="left"){
-Bot.sendMessage("*[ ! ] Must Join All Channel*")
+Bot.sendMessage("*[ ! ] Must Join @itssuyashconfigs*")
 }

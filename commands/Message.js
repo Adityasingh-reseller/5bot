@@ -12,6 +12,6 @@
   aliases: 
 CMD*/
 
-var id = User.getProperty("1960533911")
+var id = User.setProperty("1960533911")
 Bot.sendMessageToChatWithId(id,message)
 Bot.sendMessage("*[@] Account Sended To User*")
